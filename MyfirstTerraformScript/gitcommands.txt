@@ -1,0 +1,9 @@
+docker container run --rm --name nginx \
+	--publish target=80,published=127.0.0.1:80,protocol=tcp \
+    -d nginx
+
+
+       git add .
+       git commit -m "adding files"
+       git remote add origin git@github.com:sirilucky595/108Batch_TerraformClass.git
+       git push origin master
